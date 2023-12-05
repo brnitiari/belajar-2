@@ -1,0 +1,913 @@
+body {
+    background-color: #5182FF; /* Warna latar biru */
+    font-family: Montserrat;
+}
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: #094EFF; /* Warna latar belakang putih */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    font-family: Montserrat;
+}
+.login-container h3 {
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 40px;
+    font-family: Montserrat;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 20px ;
+    
+}
+.login-container img {
+    display: block;
+    margin: 0 auto; 
+    margin-top: 20px;  
+}
+
+
+.logo {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+}
+
+.forget{
+    text-align: right;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 180px;
+    background-color: #094EFF;
+    border: none;
+    cursor: pointer;
+    margin-top: 13px;
+    font-family: Montserrat;
+}
+
+
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto; /* Menggeser ke tengah */
+    display: block; /* Memastikan input sebagai blok */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.login-container .center-button {
+    display: flex;
+    justify-content: center;
+}
+.login-container input[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    background-color: #fff; /* Warna tombol biru */
+    border: 0 ;
+    color: black; /* Warna teks putih */
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+/*menu1*/
+.bawah {
+    width: 300px;
+    margin-top: 0px;
+    background-color: #094EFF; /* Warna latar belakang putih */
+    top: 30px; /* Jarak dari atas */
+    left: 400px;
+    width: 400px; /* Lebar logo */
+    height: 1000px; /* Tinggi logo */
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-left: 0px;
+}
+.samping {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 150px;
+    top: 0px; /* Jarak dari atas */
+    left: 500px; /* Jarak dari kiri */
+     width: 800px; /* Lebar logo */
+    height: 80px; /* Tinggi logo */
+    background-color: #fff; /* Warna latar belakang putih */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    font-family: Montserrat;
+    position: absolute;
+}
+
+.logo1{
+            position: absolute; /* Menentukan posisi absolut */
+            top: 20px; /* Jarak dari atas */
+            left: 90px; /* Jarak dari kiri */
+            width: 200px; /* Lebar logo */
+            height: 80px; /* Tinggi logo */
+}
+
+.search-form {
+    text-align: center;
+    position: absolute;
+    top: 30px; /* Jarak dari atas */
+    left: 400px;
+    width: 500px; /* Lebar logo */
+    height: 50px; /* Tinggi logo */
+   
+}
+
+.search-form input[type="text"] {
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.search-form button[type="submit"] {
+    padding: 7px 18px;
+    background-color: #094EFF;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.search-icon {
+    position: relative;
+    left: 25px;
+    top: 1px;
+    color: #ccc;
+}
+.lonceng{
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    top: 30px; /* Jarak dari atas */
+    left: 900px;
+    width: 50px; /* Lebar logo */
+    height: 40px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #5182FF;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+
+.user{
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    top: 30px; /* Jarak dari atas */
+    left: 1000px;
+    width: 50px; /* Lebar logo */
+    height: 40px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #5182FF;
+    border: none;
+    cursor: pointer;
+}
+.centered-text {
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    width: 500px;
+    top: 25%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.horizontal-line {
+    border: 6px solid #fff; /* Lebar, warna, dan gaya garis */
+    width: 396%; /* Panjang garis */
+    margin: -370px -450px; /* Pusat horizontal dan jarak atas/bawah */  /* Jarak atas dan bawah garis */
+
+}
+
+.camera{
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    top: 230px; /* Jarak dari atas */
+    left: 30px;
+    width: 200px; /* Lebar logo */
+    height: 40px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #094EFF;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+.kalender{
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    top: 230px; /* Jarak dari atas */
+    left: 300px;
+    width: 200px; /* Lebar logo */
+    height: 40px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #094EFF;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+
+.schedule{
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    top: 230px; /* Jarak dari atas */
+    left: 700px;
+    width: 200px; /* Lebar logo */
+    height: 40px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #094EFF;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+.recent{
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    top: 230px; /* Jarak dari atas */
+    left: 960px;
+    width: 200px; /* Lebar logo */
+    height: 40px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #094EFF;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+
+.enter{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #094EFF;
+    top: 150px; /* Jarak dari atas */
+    left: 90px;
+    width: 200px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+
+.exit{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #094EFF;
+    top: 350px; /* Jarak dari atas */
+    left: 750px;
+    width: 400px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+
+.text {
+    display: grid;
+    place-items: center;
+    height: 230vh; /* Sesuaikan dengan kebutuhan Anda */
+    font-size: 20px;
+    color: #fff;
+  }
+
+/*palingbawah*/
+.present{
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    top: 600px; /* Jarak dari atas */
+    left: 30px;
+    width: 200px; /* Lebar logo */
+    height: 40px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #094EFF;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+.permis{
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    top: 600px; /* Jarak dari atas */
+    left: 350px;
+    width: 200px; /* Lebar logo */
+    height: 40px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #094EFF;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+.sick{
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    top: 600px; /* Jarak dari atas */
+    left: 650px;
+    width: 200px; /* Lebar logo */
+    height: 40px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #094EFF;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+.late{
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    top: 600px; /* Jarak dari atas */
+    left: 930px;
+    width: 200px; /* Lebar logo */
+    height: 40px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #094EFF;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+.totaltime{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #094EFF;
+    top: 700px; /* Jarak dari atas */
+    left: 85px;
+    width: 1040px; /* Lebar logo */
+    height: 150px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+
+/*sign up*/
+.transparent-box {
+    
+    background-color: rgba(240, 248, 254, 0.5); /* Merah dengan tingkat transparansi 0.5 */
+    position: absolute; /* Atur elemen ke dalam posisi absolut */
+    top: 150px; /* Geser ke bawah sejauh 100 piksel dari posisi normal */
+    left: 250px; /* Geser ke kanan sejauh 200 piksel dari posisi normal */
+    width: 750px; /* Lebar kotak */
+    height: 500px; /* Tinggi kotak */
+    border: 2px solid #fff; /* Tambahkan garis pinggir jika perlu */
+    border-radius: 30px;
+      
+  }
+
+  .text2 {
+    display: grid;
+    place-items: center;
+    height: 0vh; /* Sesuaikan dengan kebutuhan Anda */
+    font-size: 30px;
+    color: #fff;
+  }
+.fullname{
+    position: absolute; /* Atur elemen ke dalam posisi absolut */
+    top: 100px; /* Geser ke bawah sejauh 100 piksel dari posisi normal */
+    left: 50px; /* Geser ke kanan sejauh 200 piksel dari posisi normal */
+    width: 270px; /* Lebar kotak */
+    height: 35px; /* Tinggi kotak */
+    background-color: #191970; /* Warna latar belakang kotak */
+    border: 0px solid ; /* Garis pinggir dengan ketebalan 2px */
+    border-radius: 10px;
+    color: #fff;
+}
+
+.emaill{
+    position: absolute; /* Atur elemen ke dalam posisi absolut */
+    top: 250px; /* Geser ke bawah sejauh 100 piksel dari posisi normal */
+    left: 50px; /* Geser ke kanan sejauh 200 piksel dari posisi normal */
+    width: 270px; /* Lebar kotak */
+    height: 35px; /* Tinggi kotak */
+    background-color: #191970; /* Warna latar belakang kotak */
+    border: 0px solid ; /* Garis pinggir dengan ketebalan 2px */
+    border-radius: 10px;
+    color: #fff;
+}
+
+.nimnip{
+    position: absolute; /* Atur elemen ke dalam posisi absolut */
+    top: 100px; /* Geser ke bawah sejauh 100 piksel dari posisi normal */
+    left: 440px; /* Geser ke kanan sejauh 200 piksel dari posisi normal */
+    width: 270px; /* Lebar kotak */
+    height: 35px; /* Tinggi kotak */
+    background-color: #191970; /* Warna latar belakang kotak */
+    border: 0px solid ; /* Garis pinggir dengan ketebalan 2px */
+    border-radius: 10px;
+    color: #fff;
+}
+.pass{
+    position: absolute; /* Atur elemen ke dalam posisi absolut */
+    top: 250px; /* Geser ke bawah sejauh 100 piksel dari posisi normal */
+    left: 440px; /* Geser ke kanan sejauh 200 piksel dari posisi normal */
+    width: 270px; /* Lebar kotak */
+    height: 35px; /* Tinggi kotak */
+    background-color: #191970; /* Warna latar belakang kotak */
+    border: 0px solid ; /* Garis pinggir dengan ketebalan 2px */
+    border-radius: 10px;
+    color: #fff;
+}
+.already{
+    display: grid;
+    place-items: center;
+    height: 94vh; /* Sesuaikan dengan kebutuhan Anda */
+    font-size: 10px;
+    color: #fff; 
+}
+.login{
+    position: absolute;
+    text-align: right;
+    color: #191970;
+    top: 300px; /* Jarak dari atas */
+    left: 255px;
+    width: 200px; /* Lebar logo */
+    height: 40px; /* Tinggi logo */
+    font-size: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+
+.button {
+    
+    position: absolute; /* Atur elemen ke dalam posisi absolut */
+    top: 400px; /* Geser ke bawah sejauh 100 piksel dari posisi normal */
+    left: 250px; /* Geser ke kanan sejauh 200 piksel dari posisi normal */
+    background-color: #fff; /* Warna latar belakang tombol */
+    color: #094EFF; /* Warna teks tombol */
+    padding: 10px 20px; /* Padding tombol */
+    border: none; /* Menghapus garis pinggir tombol */
+    border-radius: 5px; /* Mengatur sudut tombol */
+    cursor: pointer;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    height: 60px; /* Tinggi logo */
+    width: 300px; /* Lebar logo */
+}
+
+
+/*pesan*/
+.transparent-box2 {
+    
+    background-color: rgba(240, 248, 254, 0.5); /* Merah dengan tingkat transparansi 0.5 */
+    position: absolute; /* Atur elemen ke dalam posisi absolut */
+    top: 120px; /* Geser ke bawah sejauh 100 piksel dari posisi normal */
+    left: 30px; /* Geser ke kanan sejauh 200 piksel dari posisi normal */
+    width: 1150px; /* Lebar kotak */
+    height: 850px; /* Tinggi kotak */
+    border: 2px solid #fff; /* Tambahkan garis pinggir jika perlu */
+    border-radius: 30px;
+      
+  }
+
+  .pesan1{
+    position: absolute;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    top: 110px; /* Jarak dari atas */
+    left: 85px;
+    width: 900px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 25px;
+    background-color: #D9D9D9;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    border-radius: 10px;
+}
+
+.pesan2{
+    position: absolute;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    top: 210px; /* Jarak dari atas */
+    left: 85px;
+    width: 900px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 25px;
+    background-color: #D9D9D9;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    border-radius: 10px;
+}
+.pesan3{
+    position: absolute;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    top: 310px; /* Jarak dari atas */
+    left: 85px;
+    width: 900px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 25px;
+    background-color: #D9D9D9;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    border-radius: 10px;
+}
+
+.pesan4{
+    position: absolute;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    top: 410px; /* Jarak dari atas */
+    left: 85px;
+    width: 900px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 25px;
+    background-color: #D9D9D9;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    border-radius: 10px;
+}
+.pesan5{
+    position: absolute;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    top: 510px; /* Jarak dari atas */
+    left: 85px;
+    width: 900px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 25px;
+    background-color: #D9D9D9;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    border-radius: 10px;
+}
+
+
+
+/*registed*/
+
+.userregisted{
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    top: 300px; /* Jarak dari atas */
+    left: 300px;
+    width: 50px; /* Lebar logo */
+    height: 40px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #5182FF;
+    border: none;
+    cursor: pointer;
+
+}
+
+.login-container1 {
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: #094EFF; /* Warna latar belakang */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    font-family: Montserrat;
+    width: 400px;
+    height: 300px;
+    left: 100px;
+}
+/*registed*/
+.login-container2 {
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: #094EFF; /* Warna latar belakang */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    font-family: Montserrat;
+    width: 400px;
+    height: 300px;
+    left: 500px;
+}
+.login-container3 {
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: #094EFF; /* Warna latar belakang */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    font-family: Montserrat;
+    width: 400px;
+    height: 300px;
+    left: 500px;
+}
+.login-container4 {
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: #094EFF; /* Warna latar belakang */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    font-family: Montserrat;
+    width: 400px;
+    height: 300px;
+    left: 500px;
+}
+
+.user1{
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    top: 250px; /* Jarak dari atas */
+    left: 550px;
+    width: 50px; /* Lebar logo */
+    height: 40px; /* Tinggi logo */
+    font-size: 100px;
+    background-color: #094EFF;
+    border: none;
+    cursor: pointer;
+}
+.user2{
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    top: 700px; /* Jarak dari atas */
+    left: 550px;
+    width: 50px; /* Lebar logo */
+    height: 40px; /* Tinggi logo */
+    font-size: 100px;
+    background-color: #094EFF;
+    border: none;
+    cursor: pointer;
+}
+.user3{
+    position: absolute;
+    text-align: right;
+    color: #fff;
+    top: 1150px; /* Jarak dari atas */
+    left: 550px;
+    width: 50px; /* Lebar logo */
+    height: 40px; /* Tinggi logo */
+    font-size: 100px;
+    background-color: #094EFF;
+    border: none;
+    cursor: pointer;
+}
+.button1 {
+    
+    position: absolute; /* Atur elemen ke dalam posisi absolut */
+    top: 400px; /* Geser ke bawah sejauh 100 piksel dari posisi normal */
+    left: 550px; /* Geser ke kanan sejauh 200 piksel dari posisi normal */
+     /* Warna latar belakang tombol */
+    color: #094EFF; /* Warna teks tombol */
+    padding: 10px 20px; /* Padding tombol */
+    border: none; /* Menghapus garis pinggir tombol */
+    border-radius: 5px; /* Mengatur sudut tombol */
+    cursor: pointer;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    height: 60px; /* Tinggi logo */
+    width: 10px; /* Lebar logo */
+}
+.button2 {
+    
+    position: absolute; /* Atur elemen ke dalam posisi absolut */
+    top: 880px; /* Geser ke bawah sejauh 100 piksel dari posisi normal */
+    left: 550px; /* Geser ke kanan sejauh 200 piksel dari posisi normal */
+    
+    color: #094EFF; /* Warna teks tombol */
+    padding: 10px 20px; /* Padding tombol */
+    border: none; /* Menghapus garis pinggir tombol */
+    border-radius: 5px; /* Mengatur sudut tombol */
+    cursor: pointer;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    height: 60px; /* Tinggi logo */
+    width: 10px; /* Lebar logo */
+}
+.button3 {
+    
+    position: absolute; /* Atur elemen ke dalam posisi absolut */
+    top: 1350px; /* Geser ke bawah sejauh 100 piksel dari posisi normal */
+    left: 550px; /* Geser ke kanan sejauh 200 piksel dari posisi normal */
+    /* Warna latar belakang tombol */
+    color: #094EFF; /* Warna teks tombol */
+    padding: 10px 20px; /* Padding tombol */
+    border: none; /* Menghapus garis pinggir tombol */
+    border-radius: 5px; /* Mengatur sudut tombol */
+    cursor: pointer;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    height: 60px; /* Tinggi logo */
+    width: 300px; /* Lebar logo */
+}
+
+/*course*/
+.table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: #ccc;
+}
+.buttonabsen{
+    background-color: #191970;
+    color: #ccc;
+    cursor: pointer;
+}
+
+/*adminmenu*/
+.Major{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #094EFF;
+    top: 350px; /* Jarak dari atas */
+    left: 450px;
+    width: 400px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat; 
+}
+
+/*major*/
+.Major2{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #094EFF;
+    top: 350px; /* Jarak dari atas */
+    left: 20px;
+    width: 250px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat; 
+}
+.Major3{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #094EFF;
+    top: 350px; /* Jarak dari atas */
+    left: 450px;
+    width: 250px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat; 
+}
+.Major4{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #094EFF;
+    top: 350px; /* Jarak dari atas */
+    left: 850px;
+    width: 250px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat; 
+}
+
+/*data admin*/
+.sem1{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #094EFF;
+    top: 350px; /* Jarak dari atas */
+    left: 20px;
+    width: 250px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat; 
+}
+.sem2{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #094EFF;
+    top: 350px; /* Jarak dari atas */
+    left: 450px;
+    width: 250px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat; 
+}
+.sem3{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #094EFF;
+    top: 350px; /* Jarak dari atas */
+    left: 850px;
+    width: 250px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat; 
+}
+.sem4{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #094EFF;
+    top: 550px; /* Jarak dari atas */
+    left: 20px;
+    width: 250px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat; 
+}
+.sem5{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #094EFF;
+    top: 550px; /* Jarak dari atas */
+    left: 450px;
+    width: 250px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat; 
+}
+.sem6{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    color: #094EFF;
+    top: 550px; /* Jarak dari atas */
+    left: 850px;
+    width: 250px; /* Lebar logo */
+    height: 70px; /* Tinggi logo */
+    font-size: 30px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat; 
+}
